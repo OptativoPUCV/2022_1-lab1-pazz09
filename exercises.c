@@ -83,14 +83,13 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   int i;
 
    int* v;
    v = (int *)malloc(n*sizeof(int));
    if (v == NULL) exit (1);
 
+   return NULL;
 
-   return v[i];
 }
 
 /*
