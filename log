@@ -278,3 +278,17 @@ exercises.c:92:11: error: function returns address of local variable [-Werror=re
 cc1.exe: all warnings being treated as errors
 Compilation failed
 cdc850a
+Sat Mar 12 13:19:22 HSP 2022: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:93:12: error: return makes pointer from integer without a cast [-Werror=int-conversion]
+    return v[i];
+           ~^~~
+exercises.c:93:12: error: 'i' may be used uninitialized in this function [-Werror=maybe-uninitialized]
+    return v[i];
+            ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+c0c6ae0
