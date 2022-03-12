@@ -89,7 +89,7 @@ Vector * crearVector(int n) {
    if (v == NULL) exit (1);
 
 
-   return v;
+   return *v;
 }
 
 /*
