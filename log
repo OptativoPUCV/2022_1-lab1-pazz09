@@ -224,3 +224,23 @@ Sat Mar 12 13:03:04 HSP 2022:
  tests:  2|5
 total_score: 20/70
 68fae8d
+Sat Mar 12 13:13:28 HSP 2022: 
+ exercises.c | 11 +++++------
+ 1 file changed, 5 insertions(+), 6 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:87:12: error: initialization makes integer from pointer without a cast [-Werror=int-conversion]
+    int v = (int *)malloc(sizeof(int));
+            ^
+exercises.c:88:10: error: comparison between pointer and integer [-Werror]
+    if (v == NULL){
+          ^~
+exercises.c:89:14: error: return from incompatible pointer type [-Werror=incompatible-pointer-types]
+       return exit;
+              ^~~~
+exercises.c:93:11: error: return makes pointer from integer without a cast [-Werror=int-conversion]
+    return v;
+           ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+45b6700
