@@ -120,3 +120,9 @@ exercises.c:47:7: error: expected ';' before '}' token
        ^
 Compilation failed
 3004e1c
+Sat Mar 12 00:32:59 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+a1acf80
