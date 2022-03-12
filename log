@@ -8,3 +8,17 @@ Fri Mar 11 18:27:51 HSP 2022:
  tests:  1|6
 total_score: 10/70
 d321798
+Fri Mar 11 23:08:18 HSP 2022: 
+ exercises.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:45:19: error: expected expression before ']' token
+          sumaN( a[], n);
+                   ^
+exercises.c:46:18: error: 'tot' undeclared (first use in this function)
+          *suma = tot;
+                  ^~~
+exercises.c:46:18: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+d3abccd
