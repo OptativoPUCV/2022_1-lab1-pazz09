@@ -318,3 +318,14 @@ exercises.c:99:12: error: return from incompatible pointer type [-Werror=incompa
 cc1.exe: all warnings being treated as errors
 Compilation failed
 5229611
+Sat Mar 12 14:15:31 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:96:13: error: assignment from incompatible pointer type [-Werror=incompatible-pointer-types]
+    v->datos = (Vector *)calloc(n,sizeof(Vector));
+             ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+193e908

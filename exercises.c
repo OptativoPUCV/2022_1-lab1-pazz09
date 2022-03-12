@@ -96,7 +96,7 @@ Vector * crearVector(int n) {
    v->datos = (Vector *)calloc(n,sizeof(Vector));
    if(v->datos == NULL) exit (1);
 
-   return v->datos;
+   return v;
 
 }
 
