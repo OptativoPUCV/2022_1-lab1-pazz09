@@ -207,3 +207,14 @@ exercises.c:87:9: error: unused variable 'vector' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 2a7e4b8
+Sat Mar 12 13:02:47 HSP 2022: 
+ exercises.c | 3 ---
+ 1 file changed, 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:87:9: error: unused variable 'vector' [-Werror=unused-variable]
+    int *vector = (int *)malloc(sizeof(int));
+         ^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+d04400a

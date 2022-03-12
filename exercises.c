@@ -86,9 +86,6 @@ Vector * crearVector(int n) {
 
    int *vector = (int *)malloc(sizeof(int));
 
-   for( int i = 0; i < n ; i++){
-      
-   }
 
    return NULL;
 }
