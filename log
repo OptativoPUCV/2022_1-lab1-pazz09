@@ -346,3 +346,9 @@ exercises.c:67:9: error: unused variable 'a' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 b04be3b
+Sat Mar 12 14:26:16 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+5e2fb13
