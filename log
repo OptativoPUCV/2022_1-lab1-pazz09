@@ -153,3 +153,17 @@ exercises.c:90:11: error: return from incompatible pointer type [-Werror=incompa
 cc1.exe: all warnings being treated as errors
 Compilation failed
 e6c53e6
+Sat Mar 12 12:36:48 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:87:17: error: initialization makes integer from pointer without a cast [-Werror=int-conversion]
+    int vector = (int *)malloc(sizeof(int));
+                 ^
+exercises.c:90:11: error: return makes pointer from integer without a cast [-Werror=int-conversion]
+    return vector;
+           ^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+cf4ed11
