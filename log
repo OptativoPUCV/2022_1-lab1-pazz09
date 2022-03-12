@@ -244,3 +244,14 @@ exercises.c:93:11: error: return makes pointer from integer without a cast [-Wer
 cc1.exe: all warnings being treated as errors
 Compilation failed
 45b6700
+Sat Mar 12 13:17:32 HSP 2022: 
+ exercises.c | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:92:11: error: return from incompatible pointer type [-Werror=incompatible-pointer-types]
+    return v;
+           ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+1aa9e6c
