@@ -69,3 +69,14 @@ Fri Mar 11 23:52:39 HSP 2022:
  tests:  1|6
 total_score: 10/70
 d280ddc
+Sat Mar 12 00:05:18 HSP 2022: 
+ exercises.c | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:42:8: error: variable 'cont' set but not used [-Werror=unused-but-set-variable]
+    int cont;
+        ^~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+8c6119d

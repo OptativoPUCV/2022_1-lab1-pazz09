@@ -44,14 +44,11 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
    
    for (int i = 0; i < n; i++){
 
-      if(cont > i){
-         a[i]--;
-      }
       
+      *suma = sumaN( a, n);
       
    }
-   *suma = sumaN( a, n);
-
+   
 }
 
 /*
