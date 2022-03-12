@@ -93,7 +93,7 @@ Vector * crearVector(int n) {
 
    v->capacidad = n;
 
-   v->datos = (Vector *)calloc(n,sizeof(Vector));
+   v->datos = (int *)calloc(n,sizeof(int));
    if(v->datos == NULL) exit (1);
 
    return v;
