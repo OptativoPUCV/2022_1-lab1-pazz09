@@ -43,7 +43,7 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
 
 
    for (int i = 0; i < n; i++){
-      if(i+1 > n-m){
+      if(10 > n-m){
          
          *suma = sumaN( a, n);
       }
