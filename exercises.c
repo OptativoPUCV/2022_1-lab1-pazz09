@@ -45,9 +45,7 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
       if ( i < n-m){
          *suma = *suma - a[i];
       }
-
    }
-   
 }
 
 /*
@@ -65,6 +63,9 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
+
+
+
    return NULL;
 }
 
@@ -82,7 +83,11 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   return NULL;
+
+   int *vector = (int *)malloc(sizeof(int));
+
+
+   return *vector;
 }
 
 /*
@@ -91,6 +96,11 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
+   
+   
+   for (i = 0; i < n; i++){
+
+   }
 
 }
 

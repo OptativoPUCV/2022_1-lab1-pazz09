@@ -126,3 +126,19 @@ Sat Mar 12 00:32:59 HSP 2022:
  tests:  2|5
 total_score: 20/70
 a1acf80
+Sat Mar 12 12:34:37 HSP 2022: 
+ exercises.c | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:90:11: error: return makes pointer from integer without a cast [-Werror=int-conversion]
+    return *vector;
+           ^~~~~~~
+exercises.c: In function 'asignarValor':
+exercises.c:101:20: error: 'n' undeclared (first use in this function)
+    for (i = 0; i < n; i++){
+                    ^
+exercises.c:101:20: note: each undeclared identifier is reported only once for each function it appears in
+cc1.exe: all warnings being treated as errors
+Compilation failed
+15e0ed2
